@@ -1,0 +1,58 @@
+UNINFORMED SEARCH ALGORITHM COMPARISON
+TESTING BFS WITHOUT REPEATED STATE CHECKING
+Solution:
+Start at home.
+Take central to bus_station.
+Take highway_north to fast_food.
+Take highway_east to bookstore.
+Depth = 3
+Path Cost = 15.3
+Number of Node Expansions = 63
+TESTING BFS WITH REPEATED STATE CHECKING
+Solution:
+Start at home.
+Take central to bus_station.
+Take highway_north to fast_food.
+Take highway_east to bookstore.
+Depth = 3
+Path Cost = 15.3
+Number of Node Expansions = 12
+TESTING DFS WITHOUT REPEATED STATE CHECKING
+Solution:
+Start at home.
+Take central to bus_station.
+Take stadium_street to stadium.
+Take gravel_road to ranch.
+Take dirt_road to park.
+Take dirt_road to ranch.
+Take dirt_road to park.
+Take dirt_road to ranch.
+Take dirt_road to park.
+Take dirt_road to ranch.
+Take dirt_road to park.
+Take dirt_road to ranch.
+Take dirt_road to park.
+Take dirt_road to ranch.
+Take dirt_road to park.
+Take dirt_road to ranch.
+Take dirt_road to park.
+Take dirt_road to ranch.
+Take old_highway to diner.
+Take access_road to bookstore.
+Depth = 19
+Path Cost = 568.8
+Number of Node Expansions = 24
+TESTING DFS WITH REPEATED STATE CHECKING
+Solution:
+Start at home.
+Take central to bus_station.
+Take stadium_street to stadium.
+Take gravel_road to ranch.
+Take old_highway to diner.
+Take access_road to bookstore.
+Depth = 5
+Path Cost = 71.8
+Number of Node Expansions = 6
+ALGORITHM COMPARISON COMPLETE
+
+Process finished with exit code 0

@@ -1,0 +1,56 @@
+HEURISTIC SEARCH ALGORITHM COMPARISON
+TESTING UNIFORM COST SEARCH WITHOUT REPEATED STATE CHECKING
+Solution:
+Start at home.
+Take central to bus_station.
+Take highway_north to fast_food.
+Take highway_east to bookstore.
+Depth = 3
+Path Cost = 15.30
+Number of Node Expansions = 64
+TESTING UNIFORM COST SEARCH WITH REPEATED STATE CHECKING
+Solution:
+Start at home.
+Take central to bus_station.
+Take highway_north to fast_food.
+Take highway_east to bookstore.
+Depth = 3
+Path Cost = 15.30
+Number of Node Expansions = 10
+TESTING GREEDY BEST-FIRST SEARCH WITHOUT REPEATED STATE CHECKING
+Solution:
+Start at home.
+Take central to bus_station.
+Take highway_north to fast_food.
+Take highway_east to bookstore.
+Depth = 3
+Path Cost = 15.30
+Number of Node Expansions = 3
+TESTING GREEDY BEST-FIRST SEARCH WITH REPEATED STATE CHECKING
+Solution:
+Start at home.
+Take central to bus_station.
+Take highway_north to fast_food.
+Take highway_east to bookstore.
+Depth = 3
+Path Cost = 15.30
+Number of Node Expansions = 3
+TESTING A-STAR SEARCH WITHOUT REPEATED STATE CHECKING
+Solution:
+Start at home.
+Take central to bus_station.
+Take highway_north to fast_food.
+Take highway_east to bookstore.
+Depth = 3
+Path Cost = 15.30
+Number of Node Expansions = 7
+TESTING A-STAR SEARCH WITH REPEATED STATE CHECKING
+Solution:
+Start at home.
+Take central to bus_station.
+Take highway_north to fast_food.
+Take highway_east to bookstore.
+Depth = 3
+Path Cost = 15.30
+Number of Node Expansions = 7
+ALGORITHM COMPARISON COMPLETE
